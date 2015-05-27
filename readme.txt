@@ -36,4 +36,4 @@ by Nima Saberi < http://ideyeno.ir >
 == Changelog ==
 
 = 1.0 =
-* Initial commit.
+* نسخه پایدار
