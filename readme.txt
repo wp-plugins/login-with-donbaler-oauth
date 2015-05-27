@@ -18,9 +18,9 @@ by Nima Saberi < http://ideyeno.ir >
 
 == Installation ==
 
-1. Visit 'Plugins > Add New'
-2. Search for 'Login with Donbaler OAuth'
-3. Activate 'Login with Donbaler OAuth' from your Plugins page.
+1. به صفحه برگه افزونه‌ها در مدیریت وردپرس رجوع کرده و بر روی افزودن جدید کلیک کنید
+2. عبارت 'Login with Donbaler OAuth' را جستجو کنید
+3. افزونه ذکر شده را نصب نکرده و مطابق توضیحات صفحه مدیریت آن اقدام کنید
 
 == Screenshots ==
 
