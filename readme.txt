@@ -47,6 +47,7 @@ http://donbaler.com
 = با ما در ارتباط باشید : =
 * http://donbaler.com
 * http://donbaler.com/contacts
+* http://hamyarwp.com/لاگین-به-وردپرس-توسط-دنبالر/
 * info@ideyeno.ir 
 
 == Installation ==
