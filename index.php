@@ -4,7 +4,7 @@
 		Plugin Name: Login with Donbaler OAuth
 		Plugin URI: https://wordpress.org/plugins/login-with-donbaler-oauth/
 		Description: افزونه ورود به وردپرس توسط حساب کاربری دنبالر ...
-		Version: 1.0
+		Version: 1.1
 		Author: Nima Saberi
 		Author URI: http://ideyeno.ir
 	*/
@@ -113,19 +113,22 @@
 	$acc_oauth_token = ( isset($_GET['oauth_token']) ? strip_tags(trim($_GET['oauth_token'])) : '');
 	$acc_oauth_verifier = ( isset($_GET['oauth_verifier']) ? strip_tags(trim($_GET['oauth_verifier'])) : '');
 	
-	add_filter('login_message', 'acc_login_form', 999);
-	//add_action( 'login_form', 'acc_login_form', 999 );
 	function acc_login_form() {
 		 $style = '<style>.acc_login_form{text-align:center; padding:15px;margin: 5px 0px; color: #ffffff; text-decoration: none;background: #1BA0D8;} .acc_login_form:hover{ background: #0875A3;}</style>';
 		 $text = '<a href="'.home_url().'/'.ACC_LOGIN_SLUG.'?type=authorization" style="text-decoration: none;"><div class="acc_login_form">ورود توسط دنبالر</div></a>';
 		 echo $style.$text;
 	}
 	
-	add_shortcode( 'donbaler-oauth', 'acc_login_shortcode' );
 	function acc_login_shortcode() {
 		$text = '<div class="acc_login_form"><a href="'.home_url().'/'.ACC_LOGIN_SLUG.'?type=authorization&redirect_to='.$_SERVER["REQUEST_URI"].'">';
 		$text .= 'ورود توسط حساب کاربری دنبالر</a></div>';
 		return '<style>'.ACC_CSS_STYLE.'</style>'.$text; 
+	}
+	
+	if ( !empty($options["acc_oauth_key"]) && !empty($options["acc_oauth_secret"]) ) {
+		add_filter('login_message', 'acc_login_form', 999);
+		//add_action( 'login_form', 'acc_login_form', 999 );
+		add_shortcode( 'donbaler-oauth', 'acc_login_shortcode' );
 	}
 	
 	if ( $acc_type === 'authorization' ) {
