@@ -1,7 +1,7 @@
  === Login with Donbaler OAuth ===
 Contributors: nipoto
 Donate link: http://ideyeno.ir
-Tags: donbaler, oauth, api, wordpress, دنبالر, میکروبلاگ, شبکه اجتماعی, ورود, login, signin, register, signup, فرم ورود
+Tags: donbaler, oauth, api, wordpress, دنبالر, میکروبلاگ, شبکه اجتماعی, ورود, login, signin, register, signup, فرم ورود, donbaler.com, شیرترانیکس, sharetronix, authorization, authenticate
 Requires at least: 3.0.1
 Tested up to: 4.2.2
 Stable tag: 1.0.5
