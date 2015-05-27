@@ -24,8 +24,8 @@ by Nima Saberi < http://ideyeno.ir >
 
 == Screenshots ==
 
-1. Screenshot 1
-2. Screenshot 2
+1. صفحه افزودن برنامه و مدیریت برنامه های ایجاد شده در دنبالر
+2. نمونه یک فرم تکمیل شده از برنامه در دنبالر
 3. Screenshot 3
 4. Screenshot 4
 5. Screenshot 5
