@@ -37,6 +37,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * ارسال ایمیل به کاربر در صورت ثبت‌نام شدن در وردپرس
 و ...
 
+= از ما حمایت کنید : =
+[ * * * * *](https://wordpress.org/support/view/plugin-reviews/login-with-donbaler-oauth?rate=5#postform/)
+
 = با ما در ارتباط باشید : =
 * http://donbaler.com/contacts
 * info@ideyeno.ir 
