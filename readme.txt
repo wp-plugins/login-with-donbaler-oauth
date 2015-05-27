@@ -66,7 +66,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Frequently Asked Questions ==
 
 = راهنمای فعالسازی =
-1. به donbaler.com رجوع کرده و لاگین نمایید : [لینک] (http://donbaler.com/signin/?reference=api) 
+1. به donbaler.com رجوع کرده و لاگین نمایید : http://donbaler.com/signin/?reference=api
 2. به صفحه API رفته و بر روی «افزودن یک برنامه جدید» کلیک کنید
 3. عنوان و توضیح برنامه را درج کنید
 4. آدرس سایت خودتان را در فیلد آدرس برنامه بنویسید
@@ -80,4 +80,4 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = ShortCode =
 1. [donbaler-oauth]
-2. <?= do_shortcode( "[donbaler-oauth]" ); ?>
+2. `<?= do_shortcode( "[donbaler-oauth]" ); ?>`
