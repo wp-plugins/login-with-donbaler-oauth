@@ -19,8 +19,8 @@ by Nima Saberi < http://ideyeno.ir >
 == Installation ==
 
 1. Visit 'Plugins > Add New'
-2. Search for 'WC Pending Orders Count in AdminBar'
-3. Activate WC Pending Orders Count in AdminBar from your Plugins page.
+2. Search for 'Login with Donbaler OAuth'
+3. Activate 'Login with Donbaler OAuth' from your Plugins page.
 
 == Screenshots ==
 
