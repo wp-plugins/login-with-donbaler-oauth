@@ -72,7 +72,8 @@ http://donbaler.com
 * رفع مشکل گزینه ورود توسط دنبالر به صفحه ورود وردپرس در صورت درج نشدن کلید برنامه
 
 = 1.0 =
-* نسخه پایدار
+* نسخه پایه
+* https://wordpress.org/plugins/login-with-donbaler-oauth/
 
 == Frequently Asked Questions ==
 
