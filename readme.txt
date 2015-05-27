@@ -37,11 +37,3 @@ by Nima Saberi < http://ideyeno.ir >
 
 = 1.0 =
 * Initial commit.
-
-== Upgrade Notice ==
-
-nothing ...
-
-== Frequently Asked Questions ==
-
-nothing ...
