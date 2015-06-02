@@ -4,7 +4,7 @@
 		Plugin Name: Login with Donbaler OAuth
 		Plugin URI: https://wordpress.org/plugins/login-with-donbaler-oauth/
 		Description: افزونه ورود به وردپرس توسط حساب کاربری دنبالر ...
-		Version: 1.1
+		Version: 1.1.1
 		Author: Nima Saberi
 		Author URI: http://ideyeno.ir
 	*/
@@ -12,12 +12,12 @@
 	//ini_set( 'error_reporting', E_ALL | E_STRICT	);
 	//ini_set( 'display_errors',			1	); 
 	
-	$acc_default_settings = [
+	$acc_default_settings = array(
 		'acc_login_address' => 'wp-login.php',
 		'acc_oauth_key' => '',
 		'acc_oauth_secret' => '',
 		'acc_css_style' => '',
-	];
+	);
 	if ( ! is_array(get_option('donbaler_oauth') ) ) {
 		add_option('donbaler_oauth', $acc_default_settings);
 	}
